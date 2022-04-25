@@ -1,0 +1,114 @@
+BODY{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#top {
+    background: #141414;
+    height: 40px
+
+}
+#banner {
+     
+    height: auto;
+    width: 1000px;
+}
+#main #left {
+    width:700px;
+    float:left;
+    min-height:400px;
+            }
+#main #right {
+        width:300px;
+        float:right;
+        min-height:400px;
+                 }  
+#footer {
+    background: #000;
+    font-size:18px;
+    width: 1000px;
+    height:60px;
+    color: #fff; 
+    text-align: center;
+    clear: left;
+    line-height: 60px
+}      
+#top ul {
+    margin: 0px;
+    padding: 0px;
+}   
+#top ul li {
+    list-style: none;
+    float: left;
+}
+#top ul li a{
+    text-decoration: none;
+    display: block;
+    height:40PX;
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #ccc;
+}
+.active{
+    background-color: #1949b5
+}
+#banner img{
+    width:1000px;
+}
+
+#main #left ul {
+    
+    margin:0px;
+    padding: 0px;
+}
+#main #left ul li{
+    list-style: none;   
+    clear: left; 
+    border-bottom: 1px solid #ccc;
+     float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li  img{
+    width: 100px;
+    height: 10  0px;
+    float:left;
+    margin-right: 10px;
+ 
+}
+#main #left ul li h2{
+    font-size: 16px;
+
+}
+#main{
+    margin-top: 20px
+}
+#main #right .menu-right ul{
+    border: 1px solid black;
+    margin: -15px 0 0 0;
+    padding: 0px;
+}
+#main #right .menu-right ul li{
+    padding-left: 5px;
+    list-style: none;
+}
+#main #right .menu-right h3{
+    background: #194d58  ;
+    height: 40px;
+    margin-top:0px;
+    font-size: 14px;
+    line-height:40px;
+    color: #fff;
+    text-indent: 35px;
+
+}
+#main #right .menu-right a{
+    display:block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc
+}
+#main #right .menu-right a:hover{
+    color: red
+}
